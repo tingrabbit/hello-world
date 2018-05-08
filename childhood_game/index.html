@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>岁月中那些即将逝去的游戏</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/style.css">
+  <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body onload="">
+	<div data-role="page" id="one" class="allcontent">
+		<div data-role="header" data-theme="a" class="head-pic">
+			<h1 class="title">岁月中那些即将逝去的<br><span>童年游戏</span></h1>
+			<nav class="title_nav">
+             <!------------这里增加了类---------------------->
+				<a href="#one" class="active" data-role="button">首页</a>
+				<a href="#two" data-role="button" class="no_active">照片展示</a>
+				<!--<a href="#three" data-role="button">上传照片</a>-->
+				<a href="#four" data-role="button" class="no_active">关于我们</a>			
+			</nav>
+		</div>
+		<div data-role="content">
+			<article id="story">
+            <h2>................</h2>
+			 <p>忆起童年时代，跟同伴玩过的游戏许许多多</p>
+			 <p>有的幼稚，却是我们现在殷羡的童真，有的输赢不公平，却没有人在意</p>
+			 <p>在孩童的心里，游戏只是玩耍的一种，开心便足矣</p>
+			 <p>睁开眼睛看这飞驰的时代，华丽而耀眼</p>
+             <p>人们成熟得不苟言笑，认真得开不起玩笑，尽力得想赢得每一场游戏</p>
+			 <p>而身边的朋友却越来越少，也许很难再找回那个伴着蝉鸣和蛙叫走过的一个又一个夏天</p>
+             <p>人生这一切宛若一场清梦，人们久久不愿醒来，只说自己长大了</p>
+			</article>
+		</div>
+	</div>
+	
+	<div data-role="page" id="two" class="allcontent">
+		<div data-role="header" data-theme="a" class="head-pic">
+			<h1 class="title">岁月中那些即将逝去的<br><span>童年游戏</span></h1>
+			<nav class="title_nav">
+				<a href="#one" data-role="button" class="no_active">首页</a>
+				<a href="#two" class="active" data-role="button">照片展示</a>
+				<!--<a href="#three" data-role="button">上传照片</a>-->
+				<a href="#four" data-role="button" class="no_active">关于我们</a>
+			</nav>
+		</div>
+		
+		<div data-role="content">
+			<div data-role="header" data-theme="a" id="internal">
+            	<table>
+                	<caption>主题选择</caption>
+                      <tr><!--jsp统计图片数量-->
+						<td><a href="#h2_show" onclick="show1()" id="sh1">老鹰捉小鸡</a></td>
+						<td><a href="#h2_show" onclick="show2()" id="sh2">捉迷藏</a></td>
+						<td><a href="#h2_show" onclick="show3()" id="sh3">丢手绢</a></td>
+                       </tr>
+                       <tr>
+						<td><a href="#h2_show" onclick="show4()" id="sh4">救人木</a></td>
+						<td><a href="#h2_show" onclick="show5()" id="sh5">木头人</a></td>
+						<td><a href="#h2_show" onclick="show6()" id="sh6">翻绳</a></td>
+                       </tr>
+                       <tr>
+						<td><a href="#h2_show" onclick="show7()" id="sh7">跳大绳</a></td>
+						<td><a href="#h2_show" onclick="show8()" id="sh8">跳格子</a></td>
+						<td><a href="#h2_show" onclick="show9()" id="sh9">跳皮绳</a></td>
+                       </tr>
+				</table>
+                <br>
+			</div>
+			<hr />
+			<div data-role="content">	
+            	<h2 id="h2_show" class="hidd">图片预览:</h2>
+					<div id="pic-nav" class="pic_in">
+                    	<!----image_node----->
+					</div>
+			</div>
+					
+			<div data-role="content">
+            	<div id="big_photo" class="hidd">
+					<a href="#" onclick="last()" id="left_a"><img src="" id="left"></a>
+                    <img src="" id="s_pic"/>
+                    <a href="#" onclick="next()" id="right_a"><img src="" id="right"></a>
+                </div>
+				<article id="s_ar"></article>				
+			</div>
+		</div>
+	</div>
+	
+	<!--<div data-role="page" id="three" class="allcontent">
+		<div data-role="header" data-theme="a" class="head-pic">
+			<h1 class="title">岁月中那些即将逝去的游戏</h1>
+			<nav class="title_nav">
+				<a href="#one" data-role="button">首页</a>
+				<a href="#two" data-role="button">照片展示</a>
+				<a href="#three" style="background-color:#EDD0BE" data-role="button">上传照片</a>
+				<a href="#four" data-role="button">关于我们</a>
+			</nav>
+		</div>
+		<div data-role="content">
+			
+		</div>
+	</div>-->
+	
+	<div data-role="page" id="four" class="allcontent">
+		<div data-role="header" data-theme="a" class="head-pic">
+			<h1 class="title">岁月中那些即将逝去的<br><span>童年游戏</span></h1>
+			<nav class="title_nav">
+				<a href="#one" data-role="button" class="no_active">首页</a>
+				<a href="#two" data-role="button" class="no_active">照片展示</a>
+				<!--<a href="#three" data-role="button">上传照片</a>-->
+				<a href="#four"  class="active" data-role="button">关于我们</a>
+			</nav>
+		</div>
+		<div data-role="content">
+			<label id="info">
+				<p>制作者：叶苑莉 李玉婷</p>
+				<p>班级：15计科3班</p>
+			</label>
+		</div>
+	</div>
+	<script src="js/event.js"></script>
+</body>
