@@ -7,4 +7,4 @@ But it don't have JavaScript.And the lesson still use the old way to solve the p
 Even though the knowledge about the lesson is old, I learn how to start a web layout and cut photos.
 The most important thing is I get my first web case!<br>
 2018/05/08<br>
-Lily and I finished a project for a small Web Design Competition.We got a excellence award. It mean we are number 5 or 6 in the rank. This competition make me understand how much knowledge should I learn. I'm unhappy but study harder. On day, I will get such level too.
+Lily and I finished a project named "childhood_games" for a small Web Design Competition.We got a excellence award. It mean we are number 5 or 6 in the rank. This competition make me understand how much knowledge should I learn. I'm unhappy but study harder. On day, I will get such level too.
